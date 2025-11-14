@@ -1,0 +1,90 @@
+
+html, body {
+
+	height: 100%;
+	margin: 0;
+
+	body {
+		display: flex;
+		flex-direction: column;
+
+		main {
+			flex: 1;
+			justify-content: center;
+			align-items: center;
+		}
+
+		footer {
+			background: #eee;
+			padding: 1rem;
+			text-align: center;
+		}
+	}
+}
+
+.social-media-icon {
+	width: 2em;
+}
+
+
+
+#merch {
+	margin: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+
+	.merch {
+
+		width: 15em;
+
+		border-radius: 12px;
+		padding: 5px;
+		text-align: center;
+
+		box-shadow: 0 1em 1em rgba(0, 0, 0, 0.2);
+
+		.merch-image {
+			width: 12em;
+		}
+
+		.merch-name {
+			margin-top: 1em;
+			font-weight: bold;
+		}
+
+		.merch-price {
+			font-size: 1.3em;
+			font-weight: bold;
+			margin-top: 1em;
+		}
+	}
+}
+
+.search {
+
+	input {
+		padding: 0.5rem 1rem;
+		border-radius: 2em;
+		border: 1px solid #ccc;
+		outline: none;
+		font-size: 1rem;
+	}
+
+	button {
+		padding: 0.5rem 1rem;
+		border-radius: 2em;
+		border: 1px solid #007bff;
+		background: #007bff;
+		color: #fff;
+		cursor: pointer;
+		font-size: 1rem;
+	}
+}
+
+#location {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
